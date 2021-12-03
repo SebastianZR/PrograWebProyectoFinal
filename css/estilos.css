@@ -1,41 +1,108 @@
 *{
    box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
 }
 body{
-   background-color: #BDAEF2;
+   background-color: #D3F2D4;
 }
 
-.contenedor-cabeza{
+.head{
    display: flex;
    justify-content: space-between;
    background-color: #F3C4BB;
-   padding: 35px;
    border: 2px solid black;
    border-radius: 25px;
+   text-align: center;
+   margin: 20px;
 
 }
 
-.contenedor-cabeza #logo{
-   size: auto ;
+.head #logo{
+   align-items: center;
+   display: flex;
+   justify-content: center;
    text-align: center;
    line-height: 30px;
    font-size: 30px;
 }
-.contenedor-cabeza #titulo{
+.head #titulo{
 
    align-items: center;
    display: flex;
    justify-content: center;
    color: black;
    font-family: 'Lobster', cursive;
-   font-size: x-large;
+   font-size: 35px;
 }
 
-.contenedor-cabeza #redes ul{
-   list-style: none;
-}
-.contenedor-cabeza #redes{
-   align-items: center;
+.menu{
+   border: 2px solid black;
+   background-color: #a2e5f2;
+   border-radius: 10px;
+   margin: 20px;
+   margin-top: -10px;
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.menu #opciones{
+   background-color: rgb(0, 0, 0) transparent;
+   
+
+}
+.menu #redes{
+   background-color: rgb(0, 0, 0) transparent;
+   
+}
+.menu #opciones ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+}
+.menu #opciones li{
+   float: left;
+   padding-right: 25px;
+}
+.menu #opciones li a{
+   display: block;
+   text-align: center;
+   padding: 15px 35px;
+   text-decoration: none;
+   font-family: 'Lobster', cursive;
+   color: black;
+   font-size: 30px;
+   
+   
+
+}
+.menu #redes ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+}
+.menu #redes li{
+   float: left;
+   padding-left: 10px;
+}
+.menu #redes li a{
+   display: block;
+   text-align: center;
+   padding: 5px;
+   text-decoration: none;
+}
+.menu #redes li a img{
+   margin: 5px;   
+}
+.menu #opciones li a:hover {
+   background-color: #5ADBF4;
+   color: black;
+}
+.menu #redes li a:hover {
+   background-color: #5ADBF4;
+   color: black;
 }

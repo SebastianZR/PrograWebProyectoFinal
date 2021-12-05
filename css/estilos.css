@@ -106,3 +106,40 @@ body{
    background-color: #5ADBF4;
    color: black;
 }
+
+.dato{
+   width: 95%;
+   margin: 20px;
+   padding: 25px;
+   background-color: #f2aecb;
+   border-radius: 25px;
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+   font-family: 'Lobster';
+   align-items: center;
+   border: 2px solid black;
+}
+.dato img{
+   width: 50%;
+   height: auto;
+   border-radius: 25px;
+   margin: 25px;
+   align-items: center;
+   border: 2px solid black;
+}
+.dato h2{
+   font-size: 45px;
+   margin: 20px;
+}
+.dato .texto{
+   text-align: justify;
+   font-size: 35px;
+   margin: 20px;
+}
+.dato div{
+   margin: 25px;
+}
+.dato hr{
+   border-color: black;
+}

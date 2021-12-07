@@ -41,7 +41,6 @@ body{
    background-color: #a2e5f2;
    border-radius: 10px;
    margin: 20px;
-   margin-top: -10px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -110,7 +109,7 @@ body{
 .dato{
    width: 95%;
    margin: 20px;
-   padding: 25px;
+   padding: 20px;
    background-color: #f2aecb;
    border-radius: 25px;
    display: flex;
@@ -142,4 +141,12 @@ body{
 }
 .dato hr{
    border-color: black;
+}
+
+.menu_gen{
+   width: 95%;
+   background-color: aqua;
+   display: flex;
+   margin: auto;
+   border-radius: 20px;
 }

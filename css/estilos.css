@@ -2,6 +2,7 @@
    box-sizing: border-box;
    margin: 0px;
    padding: 0px;
+   
 }
 body{
    background-color: #D3F2D4;
@@ -118,7 +119,8 @@ body{
    font-family: 'Lobster';
    align-items: center;
    border: 2px solid black;
-}
+   margin: auto;
+   }
 .dato img{
    width: 50%;
    height: auto;
@@ -145,8 +147,130 @@ body{
 
 .menu_gen{
    width: 95%;
-   background-color: aqua;
+   background-color: #efb1a5;
    display: flex;
+   flex-direction: column;
    margin: auto;
    border-radius: 20px;
+   margin-top: 25px;
+   border: 2px solid black;
+   justify-content: stretch;
+   font-family: 'Lobster';
+
+}
+.menu_gen h2{
+   text-align: center;
+   margin: 30px;
+   font-size: 85px;
+}
+.comida ul {
+   text-align: left;
+   font-size: 35px;
+   list-style: none;
+   padding: 20px;
+   margin: 25px;
+}
+.comida h2{
+   font-size: 60px;
+}
+.comida h3{
+   padding: 20px;
+   margin: 20px;
+   font-size: xx-large;
+}
+.comida h4{
+   margin: 10px;
+   font-size: 50px;
+}
+.crepas h3{
+   font-size: 60px;
+}
+.comida{
+   background-color: #f3c4bb;
+   margin: 35px;
+   border-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   border: 2px solid black ;
+   text-align: center;
+   justify-content: center;
+   align-content: stretch;
+}
+.comida h2{
+   width: 96%;
+}
+.comida div{
+   background-color: #fbeae6;
+}
+.bebidas{
+   background-color: crimson;
+   margin: 20px;
+   border-radius: 20px;
+}
+.fresas{
+   background-color: wheat;
+   margin: 25px;
+   padding: 20px;
+   border-radius: 15px;
+   border: 1px solid black;
+   flex: auto;
+
+}
+.fresas h3{
+   padding: 20px;
+}
+.duraznos{
+   background-color: wheat;
+   margin: 25px;
+   padding: 20px;
+   border-radius: 15px;
+   border: 1px solid black;
+   flex: auto;
+
+
+}
+.crepas{
+   background-color: wheat;
+   margin: 25px;
+   padding: 20px;
+   border-radius: 15px;
+   border: 1px solid black;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: center;
+   flex: auto;
+}
+.crepas h3{
+   width: 95%;
+}
+.extras{
+   background-color: wheat;
+   margin: 25px;
+   padding: 20px;
+   border-radius: 15px;
+   border: 1px solid black;
+   flex: auto;
+
+
+}
+.pasteleria{
+   background-color: wheat;
+   margin: 25px;
+   padding: 20px;
+   border-radius: 15px;
+   border: 1px solid black;
+   flex: auto;
+}
+.pasteleria img{
+   width: 70%;
+   margin: 10px;
+   height: 45%;
+   border-radius: 20px;
+}
+.crepas img{
+   height: 350px;
+   border-radius: 20px;
+   margin: 50px;
+
 }

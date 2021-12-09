@@ -148,7 +148,7 @@ body{
 
 .menu_gen{
    width: 95%;
-   background-color: #FCC2B7;
+   background-color: #F2E4C7;
    display: flex;
    flex-direction: column;
    margin: auto;
@@ -188,7 +188,7 @@ body{
    font-size: 60px;
 }
 .comida{
-   background-color: #F2E4C7;
+   background-color: #E3E2A3;
    margin: 35px;
    border-radius: 20px;
    display: flex;
@@ -202,7 +202,7 @@ body{
    width: 96%;
 }
 .comida div{
-   background-color: #F9F2C0;
+   background-color: #FFFBDE;
 }
 
 .fresas{
@@ -324,4 +324,113 @@ body{
 }
 .otros{
    flex: auto;
+}
+.galeria {
+   height: 650px;
+   width: 65%;
+   margin:1em auto;
+   border: 3px dotted black;
+   border-radius: 25px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F2E4C7;
+}
+.galeria img {
+   position: absolute;
+   width: 50%;
+   opacity: 0;
+   transition: opacity 3s;
+   display: block;
+   margin: 10px;
+   border-radius: 25px;
+}
+
+.galeria input[type=radio] {
+   position: relative;
+   bottom: calc(-300px - 1.5em);
+
+   width: 10%;
+   height: 2em;
+}
+.galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+   opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+   opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+   opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+   opacity: 1;
+}
+
+.promociones {
+   background-color: #F2E4C7;
+   margin: 35px;
+   border-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   border: 5px solid black;
+   text-align: center;
+   justify-content: center;
+   align-content: stretch;
+   font-family: 'Lobster';
+}
+.promociones h1{
+   width: 95%;
+   text-align: center;
+   font-size: 50px;
+
+}
+.promociones div{
+   flex: auto;
+   margin: 15px;
+   padding: 20px;
+   border-radius: 20px;
+   border: 4px dotted black;
+   font-size: x-large;
+   background-color: #FCC1B7;
+}
+.mapa{
+   background-color: #F2E4C7;
+   margin: 35px;
+   border-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   border: 2px solid black;
+   text-align: center;
+   justify-content: left;
+   align-content: stretch;
+   font-family: 'Lobster';
+}
+.mapa h2{
+   width: 95%;
+   text-align: center;
+   font-size: 50px;
+   margin: auto;
+   margin-top: 20px;
+}
+
+.mapa iframe{
+   border-radius: 25px;
+   margin: 20px;
+   border: 2px solid black;
+}
+.mapa div {
+   margin: 20px;
+}
+.mapa h3{
+   font-size: 35px;
+}
+
+footer{
+   text-align: right;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
 }

@@ -7,4 +7,15 @@ con un codigo qr y asi sacarle el macimo provecho y puedan ocuparla sus clientes
 
 La paleta de colores que se planteo usar eran colores pastel en base al logo
 
+![Alt text](fotos/Logo.png?raw=true "LogoLaMasFresa")
+
+La paleta de colores que se planetaba usar fue una doble separacion complementaria 
+
+![Alt text](fotos/PaletaColores.png?raw=true "LogoLaMasFresa")
+
+y en esa nos basamos para usar el fondo de la pagina asi como la barra de menus y para cada div dentro de la pagina 
+quisimos salirnos un poco del diseno pero siempre mantener el uso de colores pasteles no tan fuertes.
+
+## Maquetado 
+
 

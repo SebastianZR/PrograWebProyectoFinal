@@ -339,7 +339,7 @@ body{
 }
 .galeria img {
    position: absolute;
-   width: 50%;
+   width: 470px;
    opacity: 0;
    transition: opacity 3s;
    display: block;

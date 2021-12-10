@@ -18,4 +18,22 @@ quisimos salirnos un poco del diseno pero siempre mantener el uso de colores pas
 
 ## Maquetado 
 
+Empezamos en una libreta dibujando como seria el menu principla o el index 
 
+![Alt text](fotos/bocetos.png?raw=true "LogoLaMasFresa")
+
+El primero Es un boceto medio bago dandome ideas de como quedaria basandome en paginas web sencillas pero 
+me di cuenta que estaria bien que en la pagina principal fuera tambien un mapa de como llegar  asi que agregue 
+un div en donde puse la direccion
+
+![Alt text](fotos/bocetos1.png?raw=true "LogoLaMasFresa")
+
+En el boceto de del menu del establecmiento lo difil de aqui fue clasificarlo ya que tenian un menu pero no estaba muy
+bien organizado asi que me dispuse a organizarlo y quedo como la segunda pagina
+
+Anexo el menu que tenia 
+
+![Alt text](fotos/MenuBebuda.jpeg?raw=true "LogoLaMasFresa")
+![Alt text](fotos/MenuComida.jpeg?raw=true "LogoLaMasFresa")
+
+opte por no poner cabzera en las demas paginas por que me parecio muy grande asi que solo deje la barra de menus.
